@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalaiyarasan</title>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -25,10 +25,10 @@
                 <div
                     class="header-wraper d-lg-flex justify-content-lg-between justify-content-center align-items-center pt-4">
                     <div class="div">
-                        <img class="non-dis" src="./img/logo1.png" alt="">
+                        <img width="70px" class="non-dis" src="./img/logo.png" alt="">
                         <!-- <h5 class="non-dis fw-bold">Home</h5> -->
                     </div>
-                    <div class="d-flex gap-lg-5 px-lg-5 px-4 align-items-center justify-content-between">
+                    <div class="d-flex gap-lg-5 px-lg-5 align-items-center justify-content-between">
                         <a href="#about">About</a>
                         <a href="#skills">Skills</a>
                         <a href="#Portfolio">Portfolio</a>
@@ -43,7 +43,7 @@
                 <div class="banner-wraper">
                     <div class="row ">
                         <div class="col-lg-6 mt-lg-5">
-                            <h3 class="fw-bold mb-4">Hi, I am</h3>
+                            <h3 class="fw-bold mb-lg-4 mb-3">Hi, I am</h3>
                             <h1>Kalaiyarasan M</h1>
                             <p class="fw-bold text-secondary">Software Engineer | DevOps | Ethical Hacking | Linux
                                 Enthusiast</p>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 d-flex skill-logo-divflex justify-content-center">
-                            <img class="img-fluid" src="./img/kalai.png" alt="">
+                            <img class="img-fluid mt-3" src="./img/kalai.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -79,18 +79,20 @@
                 </div>
 
                 <!-- <h3 class="mb-3">MYSELF</h3> -->
-                <P><span class="d-block mb-2">Hello! I’m Kalaiyarasan, a Computer Science student with a strong
+                <div class="d-block mb-2 text-just">Hello! I’m Kalaiyarasan, a Computer Science student with a strong
                         curiosity for technology and a desire to push the limits of what’s possible. My interest in tech
                         began with a fascination for how things work. This quickly grew into a passion for creating
-                        solutions that address real-world problems and help people. </span>
+                        solutions that address real-world problems and help people.</div>
 
-                    <span class="d-block mb-4">I’m very interested in ethical hacking, where I like exploring network
+                    <div class="d-block mb-4 text-just">I’m very interested in ethical hacking, where I like exploring network
                         security and protecting systems by learning about digital weaknesses. This experience has taught
                         me how important security is in today’s digital world. I also have a strong love for web
                         development, where I enjoy designing and building interactive apps that are easy to use and
-                        engaging. The web’s power to connect, inform, and inspire people motivates me every day.</span>
-                </P>
-                <a class="text-dec" href="https://www.linkedin.com/in/kalaiyarasanm/"><span class="border px-3 py-2 rounded-4 text-white">READ MORE</span></a>
+                        engaging. The web’s power to connect, inform, and inspire people motivates me every day.
+                </div>
+                <div class="text-center text-lg-start">
+                    <a class="text-dec " href="https://www.linkedin.com/in/kalaiyarasanm/"><span class="border px-3 py-2 rounded-4 text-white">READ MORE</span></a>
+                </div>
             </div>
         </div>
     </section>
@@ -185,6 +187,12 @@
                     <div class="">
                         <h5 class="fw-bold">FRONTEND:</h5>
                         <div class="d-flex py-3 px-lg-5">
+                             <div class="p-lg-4 d-flex justify-content-center skill-logo-div">
+                                <div class="text-center ">
+                                    <img class="img-fluid" src="./img/skills/bootstrap.png" alt="">
+                                    <h3 class="mt-2">BOOTSTRAP</h3>
+                                </div>
+                            </div>
                             <div class="p-lg-4 d-flex justify-content-center skill-logo-div">
                                 <div class="text-center ">
                                     <img class="img-fluid" src="./img/skills/html.png" alt="">
@@ -203,12 +211,7 @@
                                     <h3 class="mt-2">JAVASCRIPT</h3>
                                 </div>
                             </div>
-                            <div class="p-lg-4 d-flex justify-content-center skill-logo-div">
-                                <div class="text-center ">
-                                    <img class="img-fluid" src="./img/skills/bootstrap.png" alt="">
-                                    <h3 class="mt-2">BOOTSTRAP</h3>
-                                </div>
-                            </div>
+                           
                             <div class="p-lg-4 d-flex justify-content-center skill-logo-div">
                                 <div class="text-center ">
                                     <img class="img-fluid" src="./img/skills/react.png" alt="">
@@ -483,10 +486,10 @@
             <div class="contact-wraper">
                 <div class="text-center pt-5">
                     <h3 class="border border-4 px-3 py-2 border-black d-inline fw-bold text-black">Contact</h3>
-                    <p class="py-5 px-5">Iam always on the lookout to work with new clients. <br>If you're interested in working with us, please get in touch by drop a message.</p>
+                    <p class="py-5 px-lg-5"><span class="d-lg-block">Iam always on the lookout to work with new clients.</span> <span class="d-lg-block">If you're interested in working with us, please get in touch by drop a message.</span></p>
                 </div>
                 
-                <form action="contact.php" method="post">
+                <form action="mail/getmail.php" method="post">
                     <div class="text-center">
                     <input class="contact-field border-top-0 border-end-0 border-4 my-4" name="name" placeholder="Enter Your Name*" type="text"><br>
                     <input class="contact-field border-top-0 border-end-0 border-4 my-4" name="email" placeholder="Enter Your Email*" type="email"><br>

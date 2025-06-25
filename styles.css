@@ -67,14 +67,14 @@ main{
 .banner-wraper>div>div:last-child img{
     /* background-color: blueviolet; */
     order: 1;
-   max-width: 50%;
+   max-width: 68%;
 }
 .non-dis{
     display: none;
 }
 .banner-wraper>div>div:first-child h1{
     color: white;
-    font-size:45px;
+    font-size:40px;
     font-weight: bold;
     
 }
@@ -85,7 +85,7 @@ main{
     
 }
 .banner-wraper>div>div:first-child{
-   padding: 50px 40px;
+   padding: 20px 40px;
 }
 .skill-logo-div >div h3{
     font-size: 12px;
@@ -155,8 +155,15 @@ input{
 input{
  width: 320px;
 }
+.service-box{
+    height: 300px;
+}
 }
 
 .service-box{
     height: 200px;
+}
+.text-just{
+  text-align: justify;
+  /* text-justify: inter-word; */
 }
