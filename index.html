@@ -485,17 +485,18 @@
                     <h3 class="border border-4 px-3 py-2 border-black d-inline fw-bold text-black">Contact</h3>
                     <p class="py-5 px-5">Iam always on the lookout to work with new clients. <br>If you're interested in working with us, please get in touch by drop a message.</p>
                 </div>
-                <div class="text-center">
-                    <input class="contact-field border-top-0 border-end-0 border-4 my-4" placeholder="Enter Your Name*" type="text"><br>
-                    <input class="contact-field border-top-0 border-end-0 border-4 my-4" placeholder="Enter Your Email*" type="text"><br>
-                    <input class="contact-field border-top-0 border-end-0 border-4 my-4" placeholder="Phone Number*" type="text"><br>
+                
+                <form action="contact.php" method="post">
+                    <div class="text-center">
+                    <input class="contact-field border-top-0 border-end-0 border-4 my-4" name="name" placeholder="Enter Your Name*" type="text"><br>
+                    <input class="contact-field border-top-0 border-end-0 border-4 my-4" name="email" placeholder="Enter Your Email*" type="email"><br>
+                    <input class="contact-field border-top-0 border-end-0 border-4 my-4" name="number" placeholder="Phone Number*" type="number"><br>
                     <!-- <input class="contact-field border-top-0 border-end-0 border-4 my-4" placeholder="Phone Number*" type="textarea"><br> -->
-                    <textarea  placeholder="Your Message*" class="contact-field border-top-0 border-end-0 border-4 my-4" name="" id=""></textarea>
+                    <textarea  placeholder="Your Message*" class="contact-field border-top-0 border-end-0 border-4 my-4" name="message" id=""></textarea>
                     <br>
-                    <button class="px-5 contact-field py-2 border-top-0 border-bottom-0 border-3 my-3">Submit</button>
-                    
+                     <button type="submit" value="submit" class="px-5 contact-field py-2 border-top-0 border-bottom-0 border-3 my-3">Submit</button>
                 </div>
-
+                </form>
 
             </div>
         </div>
@@ -510,10 +511,6 @@
             </div>
         </div>
     </footer>
-
-
-
-
 </body>
 
 </html>
